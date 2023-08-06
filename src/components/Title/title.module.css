@@ -1,0 +1,17 @@
+.title {
+    background-color: black;
+}
+.titleWrapper {
+    width: 75%;
+    margin: auto
+    ;
+}
+.descr {
+    color: #FFF;
+font-family: Raleway;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 57.6px */
+text-transform: uppercase;
+}

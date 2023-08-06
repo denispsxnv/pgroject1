@@ -1,0 +1,40 @@
+.header {
+    background-color: rgb(0, 0, 0); 
+    width: 100%;
+    display: fixed ;
+}
+ 
+.headerWrapper {
+    width: 65%;
+    height: 170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlink {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linnks{
+    width: 20%;
+    margin-left: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.activeClass {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    text-transform: uppercase;
+    text-decoration: none;
+}

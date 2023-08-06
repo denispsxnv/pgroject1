@@ -1,0 +1,50 @@
+/* products.module.css */
+
+.products {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #000;
+    margin: 10px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    flex-wrap: wrap;
+}
+
+.products:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.productWrapper {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.title {
+    flex: 1;
+}
+
+.productName {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: #000;
+}
+
+.brand,
+.category,
+.size {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* Добавьте дополнительные стили по вашему усмотрению */
